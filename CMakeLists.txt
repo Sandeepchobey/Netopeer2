@@ -40,14 +40,14 @@ endif()
 # Generic version of not only the library. Major version is reserved for really big changes of the project,
 # minor version changes with added functionality (new tool, functionality of the tool or library, ...) and
 # micro version is changed with a set of small changes or bugfixes anywhere in the project.
-set(NP2SRV_VERSION 2.0.25)
+set(NP2SRV_VERSION 2.0.26)
 
 # libyang required SO version
 set(LIBYANG_DEP_SOVERSION_MAJOR 2)
 
 # Version of sysrepo that this netopeer2 version depends on
 set(SYSREPO_DEP_VERSION 2.0.33)
-set(SYSREPO_DEP_SOVERSION 6.0.1)
+set(SYSREPO_DEP_SOVERSION 6.4.0)
 set(SYSREPO_DEP_SOVERSION_MAJOR 6)
 
 #
